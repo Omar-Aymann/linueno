@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +10,7 @@
             font-family: 'Arial', sans-serif;
         }
         .hero {
-            background: url('https://images.pexels.com/photos/7516363/pexels-photo-7516363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
+            background: url('https://images.pexels.com/photos/220326/pexels-photo-220326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
             background-size: cover;
             color: white;
             padding: 100px 0;
@@ -19,10 +20,10 @@
             font-size: 3.5rem;
             margin-bottom: 20px;
         }
-        .features {
+        .features, .about, .testimonials, .how-it-works, .pricing, .faq {
             padding: 50px 0;
         }
-        .features .feature {
+        .features .feature, .testimonials .testimonial, .pricing .plan, .faq .question {
             padding: 20px;
         }
         .download-section {
@@ -51,6 +52,21 @@
                     <a class="nav-link" href="#features">Features</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#how-it-works">How It Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#download">Download</a>
                 </li>
                 <li class="nav-item">
@@ -74,16 +90,102 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 feature">
+                    <img class=" w-100" src="https://images.pexels.com/photos/1181233/pexels-photo-1181233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                     <h3>Interactive Lessons</h3>
                     <p>Engage in interactive lessons that make learning fun and effective.</p>
                 </div>
                 <div class="col-md-4 feature">
+                    <img class=" w-100"  src="https://images.pexels.com/photos/1181529/pexels-photo-1181529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                     <h3>Expert Tutors</h3>
                     <p>Learn from experienced tutors who guide you every step of the way.</p>
                 </div>
                 <div class="col-md-4 feature">
+                    <img class=" w-100"  src="https://images.pexels.com/photos/590011/pexels-photo-590011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                     <h3>Track Your Progress</h3>
                     <p>Monitor your learning journey and track your progress over time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Lingueno is dedicated to helping you master new languages quickly and effectively. Our mission is to provide high-quality language education accessible to everyone.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Users Say</h2>
+            <div class="row">
+                <div class="col-md-4 testimonial">
+                    <blockquote>
+                        <p>Lingueno has transformed my language learning experience! The interactive lessons are fantastic.</p>
+                        <footer>- Mohamed</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 testimonial">
+                    <blockquote>
+                        <p>The best language learning app I've ever used. The tutors are incredibly helpful.</p>
+                        <footer>- Khaled</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 testimonial">
+                    <blockquote>
+                        <p class="fw-bold">I've made so much progress with Lingueno. Highly recommend it!</p>
+                        <footer class=" fw-bold">- Omar</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Step 1</h3>
+                    <p>Sign up for an account and choose the language you want to learn.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Step 2</h3>
+                    <p>Start with our interactive lessons and practice regularly.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Step 3</h3>
+                    <p>Track your progress and reach out to expert tutors if you need help.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="row">
+                <div class="col-md-6 question">
+                    <h4>How do I sign up?</h4>
+                    <p>Click on the "Download Now" button and follow the instructions to create an account.</p>
+                </div>
+                <div class="col-md-6 question">
+                    <h4>What languages can I learn?</h4>
+                    <p>We offer lessons in a wide range of languages including Spanish, French, German, Mandarin, and more.</p>
+                </div>
+                <div class="col-md-6 question">
+                    <h4>Can I cancel my subscription?</h4>
+                    <p>Yes, you can cancel your subscription at any time from your account settings.</p>
+                </div>
+                <div class="col-md-6 question">
+                    <h4>Do you offer a free trial?</h4>
+                    <p>Yes, we offer a 7-day free trial for our Premium and Pro plans.</p>
                 </div>
             </div>
         </div>
@@ -100,9 +202,10 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer id="contact" class="footer">
         <div class="container">
             <p>&copy; 2024 Lingueno. All rights reserved.</p>
+            <p>Contact us at <a href="mailto:info@lingueno.com" style="color: white;">info@lingueno.com</a></p>
         </div>
     </footer>
 
